@@ -1,0 +1,134 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-box {
+    border: 2px solid #333;
+    border-radius: 10px 10px 0 0;
+    width: 200px;
+    text-align: center;
+    border-bottom: 0;
+}
+
+.question-value {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 120px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.value {
+    margin: 0;
+}
+
+.translate-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Задний фон с прозрачностью */
+    transform: scaleX(0); /* Начальное значение scaleY (невидимо) */
+    transform-origin: bottom center;
+    transition: transform .3s ease-in-out;
+}
+
+.card:hover .show-translate {
+    transform: scaleX(1); /* При наведении - разворачиваем */
+    animation: scale .3s ease-in-out;
+}
+
+.card-animate {
+
+}
+
+.quiz-main-wrapper {
+    justify-self: center;
+    align-self: center;
+    width: 500px;
+    height: 500px;
+    transition: background-color .3s ease;
+}
+
+
+.translate {
+    margin: 0;
+}
+
+.score-container {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.score-label {
+    font-size: 16px;
+    color: #777;
+}
+
+.quiz-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.quiz-button:hover {
+    background-color: #0b7dda;
+}
+
+.quiz-button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Выравнивание по центру */
+}
+.quiz-game-wrapper {
+    height: fit-content;
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid black;
+}

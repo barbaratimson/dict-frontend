@@ -1,9 +1,10 @@
-import {Input, PageWrapper, TextLarge} from "../../../../styles/components";
 import {useEffect, useState} from "react";
 import {apiGetWords, apiSearchAllWords} from "../../../../utils/apiRequests";
 import {WordT} from "../UserPage/UserPage";
 import {Word} from "../../../Word/Word";
-import {WordsContainer} from "./components";
+import {Input} from "../../../Input/Input";
+import Search from "../../../Search/Search";
+import * as React from "react";
 
 export const Words = () => {
     const [words, setWords] = useState<WordT[]>([])
@@ -27,19 +28,21 @@ export const Words = () => {
         }
     }, [search]);
 
-    if (!words) return <TextLarge>No words</TextLarge>
+    if (!words) return <div>No words</div>
     return (
-        <PageWrapper>
-            <Input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search words"/>
-            <WordsContainer>
+        <div>
+            <div className="flex flex-row justify-between items-center">
+                <Search value={search} setValue={(value)=>setSearch(value.toLowerCase().split(" ").join())}/>
+            </div>
+            <div className="flex flex-row gap-4 p-4">
                 {!searchResults ? words?.map(word => (
                     <Word key={word.id} word={word}/>
                 )) : searchResults?.length !== 0 ? searchResults?.map(word => (
                     <Word key={word.id} word={word}/>
                 )) : (
-                    <TextLarge>No words found :(</TextLarge>
+                    <div>No words found :(</div>
                 )}
-            </WordsContainer>
-        </PageWrapper>
+            </div>
+        </div>
     );
 };

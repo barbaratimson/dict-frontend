@@ -1,74 +1,43 @@
 import {WordT} from "../Router/pages/UserPage/UserPage";
-import styled from "styled-components";
-import {theme} from "../../styles/theme";
-import {Button, FlexColumn, FlexRow, TextSmall} from "../../styles/components";
 import * as React from "react";
-import {HTMLAttributes, useState} from "react";
+import {HTMLAttributes} from "react";
 import {useAppDispatch, useAppSelector} from "../../store/store";
 import {setUserDictWords} from "../../store/reducers/userSlice";
-import {apiAddWords, apiRemoveWords} from "../../utils/apiRequests";
-
-const WordWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  padding: 10px;
-  border-radius: 12px;
-  overflow: hidden;
-  background: ${theme.colors.secondary};
-`
+import {useAddWordsToDictionaryMutation, useDeleteWordsFromDictionaryMutation} from "../../store/api/apiSlice";
 
 interface WordProps {
     word: WordT,
     style?: HTMLAttributes<HTMLDivElement>
     className?: string
     disableControls?: boolean,
+    onClick?: () => void,
+    selected?: boolean,
 }
 
-export const Word = ({word, style, className, disableControls = false}: WordProps) => {
-    const [isLoading, setIsLoading] = useState(false)
+export const Word = ({word, style, className, selected, onClick, disableControls = false}: WordProps) => {
+    const [addWordsToDict, {isLoading: isAdding}] = useAddWordsToDictionaryMutation()
+    const [deleteWordsfromDict, {isLoading: isDeleting}] = useDeleteWordsFromDictionaryMutation()
     const dispatch = useAppDispatch()
     const userDictWords = useAppSelector(state => state.user.dictWords)
     const setUserWords = (words: WordT[]) => dispatch(setUserDictWords(words))
     const handleAddButton = () => {
         if (!userDictWords.find(elem => elem.id === word.id)) {
-            setIsLoading(true)
-            apiAddWords([word]).then((data) => {
-                setIsLoading(false)
-                if (data !== "OK") return
-                console.log(`Word ${word.value} added!`)
-                setUserWords([...userDictWords, word])
-            })
+           addWordsToDict({dictId:"680383f43655364000d439c5", words:[word]})
         } else {
-            setIsLoading(true)
-            apiRemoveWords([word]).then((data) => {
-                setIsLoading(false)
-                if (data !== "OK") return
-                console.log(`Word ${word.value} removed!`)
-                setUserWords(userDictWords.filter(elem => elem.id !== word.id))
-            })
+          deleteWordsfromDict({dictId:"680383f43655364000d439c5", words:[word]})
         }
     }
 
 
-    if (!word.value || !word.translate) return <WordWrapper><TextSmall>{word.id} Error</TextSmall></WordWrapper>
+    if (!word.value || !word.translate) return <div className={`flex flex-col w-fit p-2 rounded-xl overflow-hidden`}><div>{word.id} Error</div></div>
     return (
-        <WordWrapper className={className} style={style}>
-            <FlexRow gap={10}>
-                <FlexColumn>
-                    <TextSmall>{word.value}</TextSmall>
-                    <TextSmall color={theme.colors.fontSecondary}>{word.translate}</TextSmall>
-                </FlexColumn>
-                {!disableControls ? (
-                    !isLoading ? (
-
-                    <Button
-                        onClick={handleAddButton}>{userDictWords.find(elem => elem.id === word.id) ? "-" : "+"}</Button>
-                ) : (
-                    <div>L</div>
-                )
-                    ) : null}
-            </FlexRow>
-        </WordWrapper>
+        <div className={`${className} flex flex-col w-fit p-2 rounded-xl overflow-hidden cursor-pointer hover:bg-primary-600 ${selected ? "!bg-primary-300" : "bg-primary-800"}`} onClick={onClick} style={style}>
+            <div className="flex flex-row gap-2">
+                <div className="flex text-white flex-col">
+                    <div>{word.value}</div>
+                    <div>{word.translate}</div>
+                </div>
+            </div>
+        </div>
     );
 };

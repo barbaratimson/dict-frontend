@@ -63,9 +63,9 @@ export const apiRemoveWords = async (words: WordT[]) => {
 };
 
 
-export const apiGetDicts = async (): Promise<DictT | undefined> => {
+export const apiGetDicts = async (): Promise<DictT[] | undefined> => {
     try {
-        const response = await axios.get<DictT>(
+        const response = await axios.get<DictT[]>(
             `${link}/home`,{headers:{"Authorization":localStorage.getItem("Dict_Authorization")}});
         return response.data
     } catch (err:any) {
@@ -93,7 +93,7 @@ export const apiGetUserDictWords = async (): Promise<WordT[] | undefined> => {
     }
 };
 
-export const apiSearchAllWords = async (search: string, byTranslate:boolean = false): Promise<WordT[] | undefined> => {
+export const apiSearchAllWords = async (search: string, byTranslate = false): Promise<WordT[] | undefined> => {
     try {
         const response = await axios.get<WordT[]>(
             `${link}/words/find/translate-value?starts_with=${search}&by_translate=${byTranslate}`, {headers:{"Authorization":localStorage.getItem("Dict_Authorization")}});

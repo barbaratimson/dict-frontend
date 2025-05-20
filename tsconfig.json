@@ -22,5 +22,9 @@
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/store/api/apiSlice.ts" // Add this line
   ]
 }

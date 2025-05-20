@@ -1,4 +1,4 @@
 export interface UserT {
-    id: number | string
+    id: number
     username: string
 }

@@ -2,11 +2,15 @@
 import {TypedUseSelectorHook, useDispatch, useSelector} from "react-redux";
 import userSlice from "./reducers/userSlice";
 import {configureStore} from "@reduxjs/toolkit";
+import {api} from "./api/apiSlice";
 
 export const store = configureStore({
     reducer:{
-        user: userSlice
-    }
+        user: userSlice,
+        [api.reducerPath]: api.reducer,
+    },
+    middleware: (getDefaultMiddleware) =>
+        getDefaultMiddleware().concat(api.middleware),
 });
 
 type DispatchFunc = () => AppDispatch

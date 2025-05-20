@@ -1,6 +1,5 @@
 import * as React from 'react';
-import {Dictionary} from "./components/Dictionary/Dictionary";
-import {PageWrapper} from "../../../../styles/components";
+import { Dictionary } from "../../../Dictionary/Dictionary";
 
 export interface DictT {
     id: string
@@ -19,9 +18,9 @@ const UserPage = () => {
 
 
     return (
-        <PageWrapper>
+        <div>
             <Dictionary/>
-        </PageWrapper>
+        </div>
     );
 }
 

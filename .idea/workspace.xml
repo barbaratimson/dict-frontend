@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12f32b81-6a1d-4f80-9cfa-b6a2c5000623" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dictionary/Dictionary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Quizlet/Quizlet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Quizlet/Quizlet.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/WordModal/WordModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/api/apiSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionary-frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loader/Loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader/Loader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/Router.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Auth/Auth.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Auth/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/Auth/Auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/UserPage/UserPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/UserPage/UserPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/UserPage/components/Dictionary/Dictionary.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Words/Words.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/Words/Words.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Words/components.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Word/Word.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Word/Word.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/apiRequests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/apiRequests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tqZY9xx5IHTHwVKLa6DmU7Q3lz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;ReactCreateComponentLastSelected&quot;: &quot;arrowFunctionComponent&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/js/dictionary-frontend&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\js\\dictionary-frontend\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.tailwindcss&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\js\\dictionary-frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\js\dictionary-frontend" />
+      <recent name="D:\js\dictionary-frontend\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\js\dictionary-frontend\src\components" />
+      <recent name="D:\js\dictionary-frontend" />
+      <recent name="D:\js\dictionary-frontend\src\components\Router\pages\Words" />
+      <recent name="D:\js\dictionary-frontend\src\components\Router\pages" />
+      <recent name="D:\js\dictionary-frontend\src\components\Router" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12f32b81-6a1d-4f80-9cfa-b6a2c5000623" name="Changes" comment="" />
+      <created>1741081609400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741081609400</updated>
+      <workItem from="1741081610424" duration="3182000" />
+      <workItem from="1741110955965" duration="1804000" />
+      <workItem from="1741177168852" duration="12613000" />
+      <workItem from="1741245984121" duration="11078000" />
+      <workItem from="1741354780827" duration="300000" />
+      <workItem from="1741410219200" duration="17069000" />
+      <workItem from="1741599613043" duration="10194000" />
+      <workItem from="1741666495320" duration="2817000" />
+      <workItem from="1741767289125" duration="599000" />
+      <workItem from="1742197288693" duration="5005000" />
+      <workItem from="1742290043718" duration="2812000" />
+      <workItem from="1742399205649" duration="3029000" />
+      <workItem from="1742542602209" duration="5003000" />
+      <workItem from="1742630517120" duration="56000" />
+      <workItem from="1742646972077" duration="6549000" />
+      <workItem from="1742802771293" duration="635000" />
+      <workItem from="1742804390334" duration="166000" />
+      <workItem from="1745054815439" duration="6827000" />
+      <workItem from="1745065161424" duration="787000" />
+      <workItem from="1745066069324" duration="6588000" />
+      <workItem from="1745141731700" duration="11811000" />
+      <workItem from="1745686975269" duration="788000" />
+      <workItem from="1745687770309" duration="1270000" />
+      <workItem from="1745750278622" duration="6538000" />
+      <workItem from="1745823674670" duration="14000" />
+      <workItem from="1745858313611" duration="2737000" />
+      <workItem from="1745861060423" duration="1047000" />
+      <workItem from="1745910017103" duration="38000" />
+      <workItem from="1745950438888" duration="3879000" />
+      <workItem from="1746031622324" duration="1385000" />
+      <workItem from="1746085126220" duration="1120000" />
+      <workItem from="1746204393487" duration="629000" />
+      <workItem from="1746282387869" duration="6234000" />
+      <workItem from="1746373762858" duration="9000" />
+      <workItem from="1746465179579" duration="6492000" />
+      <workItem from="1746514883725" duration="23000" />
+      <workItem from="1746637928518" duration="189000" />
+      <workItem from="1746950253868" duration="35000" />
+      <workItem from="1747332512730" duration="3986000" />
+      <workItem from="1747378859910" duration="28000" />
+      <workItem from="1747418047517" duration="516000" />
+      <workItem from="1747418579480" duration="281000" />
+      <workItem from="1747418871818" duration="428000" />
+      <workItem from="1747419321829" duration="153000" />
+      <workItem from="1747419550408" duration="453000" />
+      <workItem from="1747420015105" duration="3724000" />
+      <workItem from="1747457544479" duration="1465000" />
+      <workItem from="1747459031049" duration="184000" />
+      <workItem from="1747459227104" duration="1742000" />
+      <workItem from="1747460981275" duration="537000" />
+      <workItem from="1747462444745" duration="1455000" />
+      <workItem from="1747463998550" duration="77000" />
+      <workItem from="1747464086324" duration="3070000" />
+      <workItem from="1747468095265" duration="1476000" />
+      <workItem from="1747475980665" duration="2770000" />
+      <workItem from="1747478773213" duration="1200000" />
+      <workItem from="1747489875598" duration="1683000" />
+      <workItem from="1747565630017" duration="7997000" />
+      <workItem from="1747574767904" duration="14000" />
+      <workItem from="1747574793070" duration="5711000" />
+      <workItem from="1747638082590" duration="33000" />
+      <workItem from="1747759750651" duration="7580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
