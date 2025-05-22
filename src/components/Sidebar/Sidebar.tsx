@@ -95,6 +95,7 @@ export const Sidebar = () => {
               </div>
             )}
           </div>
+          <p onClick={()=>{navigate("/vote")}} className="text-white text-h5 mt-2 rounded-lg bg-white/20 px-2 py-0.5 cursor-pointer">Vote for words</p>
           <div className="mt-auto flex w-full flex-row items-center justify-between rounded-xl bg-white/20 px-3 py-2">
             <p className="text-text-primary text-h5 items-center">
               {user?.username}

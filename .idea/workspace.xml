@@ -5,47 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12f32b81-6a1d-4f80-9cfa-b6a2c5000623" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dictionary/Dictionary.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Quizlet/Quizlet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Quizlet/Quizlet.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WordModal/WordModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/api/apiSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionary-frontend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loader/Loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader/Loader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/Router.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Router/pages/Vote/Vote.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Auth/Auth.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Auth/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/Auth/Auth.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/UserPage/UserPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/UserPage/UserPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/UserPage/components/Dictionary/Dictionary.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Words/Words.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/Words/Words.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Words/components.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Word/Word.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Word/Word.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/theme.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/apiRequests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/apiRequests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -216,7 +180,10 @@
       <workItem from="1747574767904" duration="14000" />
       <workItem from="1747574793070" duration="5711000" />
       <workItem from="1747638082590" duration="33000" />
-      <workItem from="1747759750651" duration="7580000" />
+      <workItem from="1747759750651" duration="7871000" />
+      <workItem from="1747802013581" duration="593000" />
+      <workItem from="1747810816026" duration="58000" />
+      <workItem from="1747821429516" duration="1587000" />
     </task>
     <servers />
   </component>
