@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12f32b81-6a1d-4f80-9cfa-b6a2c5000623" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Router/pages/Vote/Vote.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quizlet/Quizlet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quizlet/Quizlet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quizlet/Quizlet.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/pages/Home/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/api/apiSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/api/apiSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     &quot;ReactCreateComponentLastSelected&quot;: &quot;arrowFunctionComponent&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -107,7 +109,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-43a09073042e-JavaScript-WS-252.13776.71" />
       </set>
     </attachedChunks>
   </component>
@@ -184,6 +186,12 @@
       <workItem from="1747802013581" duration="593000" />
       <workItem from="1747810816026" duration="58000" />
       <workItem from="1747821429516" duration="1587000" />
+      <workItem from="1747908712242" duration="138000" />
+      <workItem from="1747909476364" duration="1030000" />
+      <workItem from="1747910524139" duration="259000" />
+      <workItem from="1747915333102" duration="622000" />
+      <workItem from="1747944565030" duration="2736000" />
+      <workItem from="1747980714707" duration="1816000" />
     </task>
     <servers />
   </component>

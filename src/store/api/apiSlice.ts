@@ -52,7 +52,7 @@ export const api = createApi({
             invalidatesTags: ['User'],
         }),
 
-        changePassword: builder.mutation<void, { oldPassword: string; newPassword: string }>({
+        changePassword: builder.mutation<void, { password:string }>({
             query: (body) => ({
                 url: '/change/pass',
                 method: 'PATCH',
